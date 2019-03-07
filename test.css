@@ -1,0 +1,97 @@
+body {
+  margin: auto 0;
+}
+/* NAV */
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 0.7em;
+}
+
+.main-nav li{
+  padding: 20px;
+}
+
+.main-nav li > a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.main-nav li:last-child{
+  margin-left: auto;
+}
+
+/* COVER */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.container > img {
+  width: 500px;
+}
+
+/* Project Grid */
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  grid-gap: 20px;
+}
+
+.box {
+  padding: 20px;
+  margin: 30px;
+  background-color: purple;
+
+}
+
+.box > p {
+  font-size: .5em;
+}
+
+.box > img {
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+}
+
+
+.zone {
+  /* padding: 30px;
+  margin: 50px;
+  display: inline-block; */
+  color: white;
+  font-size: 2em;
+  border-radius: 4px;
+  border: 1px solid darkgray;
+  font-family: arial, sans-serif;
+
+}
+
+/* .zone:hover {
+  box-shadow: 2px 2px 10px yellow;
+  background: white;
+  color: black;
+} */
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.orange {
+  background: orange;
+}
+
+.red {
+  background: red;
+}
